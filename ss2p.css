@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+background-color: rgb(252, 245, 245);
+    display: flex;
+    flex-direction: row;
+}
+#links{
+color:#3460b2;
+background-color: rgb(25, 109, 10);
+display: flex;
+flex-direction: column;
+width: 50rem;
+height:100%vh;
+display: block;
+padding: 50px;
+position: sticky;
+}
+.navbar{
+    position: fixed;
+    width: fit-content;
+
+}
+#links .navbar a{
+color:aliceblue;
+text-decoration: none;
+text-align: center;
+font-size: larger;
+font-weight: 200;   
+position: sticky;
+margin-top: 90%vh;
+height:100%vh;
+transition: 0.7s;
+
+}
+#links .navbar a:hover{
+    background-color: rgb(94, 84, 238);
+    /* color: black; */
+border-radius: 40px;
+}
+/* #content{
+width: 80%;
+height: 100%;
+background-color: black;
+color: white;
+float: right;
+top: 0px ;
+display: flex;
+flex-direction: column;
+
+} */
+.cla {
+    display:inline-block;
+ margin:30px; 
+ background-color:white;
+ border-radius:40%;
+ /* box-shadow: 10px 20px 40px 5px; */
+ transition: 0.8s;
+ box-shadow: 5px 5px 5px 5px;
+}
+.cla:hover {
+ /* margin: 20px; */
+ box-shadow: 30px 30px 70px 5px;
+}
+.cla .img{
+   width: 100px;
+   height: 200px;
+   transition: 1s;
+}
+.cla .img:hover{
+    /* margin: 60px; */
+    height: 280px;
+    width: 140px;
+}
+.form {
+    font-weight: 300rem;
+    font-size: larger;
+    outline-width: 23px;}
+@media  (max-width:1200px) {
+    #links .navbar a{
+        color:white;
+        text-decoration: none;
+        text-align: right;
+        font-size: 13px;
+        font-weight: 500;
+        position: sticky;
+        margin-left: 0px;
+        height:100%vh;
+        
+        }  
+        #links{
+            color:#3460b2;
+            background-color: rgb(25, 109, 10);
+            display: flex;
+            flex-direction: row;
+            width: 80rem;
+            height:100%vh;
+            /* display: block; */
+            padding: 50px;
+            position: sticky;
+            } 
+
+}
